@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MamaPutOnline – Authentic Nigerian Cuisine Delivered</title>
+<link rel="stylesheet" href="./styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav>
+  <a href="#home" class="logo">
+    <div class="logo-icon">🍲</div>
+    <div class="logo-text">MamaPut<span>Online</span></div>
+  </a>
+
+  <input type="checkbox" id="nav-toggle">
+  <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </label>
+
+  <ul class="nav-links">
+    <li>
+      <a href="#products">Products ▾</a>
+      <ul class="dropdown">
+        <li><a href="#soups">Soups &amp; Stews</a></li>
+        <li><a href="#rice">Rice Dishes</a></li>
+        <li><a href="#proteins">Proteins &amp; Snacks</a></li>
+        <li><a href="#extras">Extras &amp; Sides</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#services">Services ▾</a>
+      <ul class="dropdown">
+        <li><a href="#services">Delivery</a></li>
+        <li><a href="#services">Catering</a></li>
+        <li><a href="#services">Bulk Orders</a></li>
+      </ul>
+    </li>
+    <li><a href="#customer-service">Customer Service</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+
+  <div class="nav-search">
+    <input type="text" placeholder="Search dishes…" aria-label="Search">
+    <button aria-label="Search">
+      <svg width="14" height="14" viewBox="0 0 24 24">
+        <path d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
+          stroke="#0d1b3e" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home">
+  <div class="hero-text">
+    <div class="hero-badge">🚀 Order Now – Fast Delivery</div>
+    <h1>Taste the <em>Soul</em> of Nigeria, Right at Your Door</h1>
+    <p>Freshly cooked authentic Nigerian meals — from steaming egusi soup to smoky
+    jollof rice — delivered hot to your home or office in Enugu.</p>
+    <div class="cta-wrap">
+      <a href="#products" class="btn-primary">🛒 Order Now</a>
+      <a href="#services" class="btn-outline">Learn More</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img
+      src="./Images/egusi.jpg"
+      alt="Steaming Nigerian egusi soup served in a clay pot">
+    <div class="hero-image-overlay"></div>
+    <div class="steam-tag"><div class="steam-dot"></div> Made fresh today</div>
+  </div>
+</section>
+
+<!-- ===== PRODUCTS + SIDEBAR ===== -->
+<section id="products">
+  <aside class="sidebar">
+    <div>
+      <h3>Categories</h3>
+      <ul class="sidebar-links">
+        <li><a href="#soups" class="active"><span class="icon">🍲</span> Soups &amp; Stews</a></li>
+        <li><a href="#rice"><span class="icon">🍚</span> Rice Dishes</a></li>
+        <li><a href="#yam-beans"><span class="icon">🥘</span> Yam &amp; Beans</a></li>
+        <li><a href="#proteins"><span class="icon">🍗</span> Proteins</a></li>
+        <li><a href="#extras"><span class="icon">🌿</span> Extras &amp; Sides</a></li>
+      </ul>
+      <h3>Quick Links</h3>
+      <ul class="sidebar-links">
+        <li><a href="#services"><span class="icon">🚚</span> Delivery Info</a></li>
+        <li><a href="#customer-service"><span class="icon">💬</span> Help Centre</a></li>
+        <li><a href="#contact"><span class="icon">📞</span> Contact Us</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="product-area">
+    <h2 class="section-title">Our Menu</h2>
+    <p class="section-sub">Authentic Nigerian flavours, cooked fresh every day.</p>
+
+    <!-- ROW 1: Soups -->
+    <div id="soups">
+      <div class="cat-label"><h2>🍲 Soups &amp; Stews</h2></div>
+      <div class="product-row">
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/egusi.jpg" alt="hot egusi soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Egusi Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,800</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Ewedu Soup.jpeg" alt="hot ewedu soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Ewedu Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Ora soup.jpg" alt="hot ora soup"><span class="badge">Chef's Pick</span></div>
+          <div class="card-body">
+            <div class="card-name">Ora Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Edikaikong.jpg" alt="hot edikaikong soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Edikaikong</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Okazi Soup.jpg" alt="hot okazi soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Okazi Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,000</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src=".//Images/Ogbono Soup.jpg" alt="hot ogbono soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Ogbono Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,800</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Okro Soup.jpg" alt="hot okro soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Okro Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Banga Soup.jpg" alt="hot banga soup"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Banga Soup</div>
+            <div class="card-qty">500ml serving</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- ROW 2: Rice -->
+    <div id="rice">
+      <div class="cat-label"><h2>🍚 Rice Dishes</h2></div>
+      <div class="product-row">
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Jollof Rice.jpg" alt="hot jollof rice"><span class="badge">Bestseller</span></div>
+          <div class="card-body">
+            <div class="card-name">Jollof Rice</div>
+            <div class="card-qty">1 plate (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Fried Rice.jpg" alt="hot fried rice"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Fried Rice</div>
+            <div class="card-qty">1 plate (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,800</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/White Rice & Stew.jpg" alt="hot white rice and stew"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">White Rice &amp; Stew</div>
+            <div class="card-qty">1 plate (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,000</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Party Jollof.jpg" alt="hot party jollof"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Party Jollof</div>
+            <div class="card-qty">1 plate (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- ROW 3: Yam & Beans -->
+    <div id="yam-beans">
+      <div class="cat-label"><h2>🥘 Yam, Beans &amp; Plantain</h2></div>
+      <div class="product-row">
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Porridge Yam.jpg" alt="hot porridge yam"><span class="badge">Homestyle</span></div>
+          <div class="card-body">
+            <div class="card-name">Porridge Yam</div>
+            <div class="card-qty">1 bowl (450g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Porridge Beans.jpg" alt="hot porridge beans"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Porridge Beans</div>
+            <div class="card-qty">1 bowl (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦1,800</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Fried Plantain.jpg" alt="hot fried plantain"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Fried Plantain</div>
+            <div class="card-qty">6 pieces</div>
+            <div class="card-footer">
+              <div class="card-price">₦1,200</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Moi Moi.jpg" alt="hot moi moi"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Moi Moi</div>
+            <div class="card-qty">2 wraps (300g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦1,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <!-- ROW 4: Proteins & Extras -->
+    <div id="proteins">
+      <div class="cat-label"><h2>🍗 Proteins, Specials &amp; Sides</h2></div>
+      <div class="product-row">
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Abacha.jpg" alt="hot abacha"><span class="badge">Eastern</span></div>
+          <div class="card-body">
+            <div class="card-name">Abacha</div>
+            <div class="card-qty">1 plate (350g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Nkwobi.jpg" alt="hot nkwobi"><span class="badge">Spicy</span></div>
+          <div class="card-body">
+            <div class="card-name">Nkwobi</div>
+            <div class="card-qty">1 portion (400g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦4,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Fried Chicken.jpg" alt="hot fried chicken"><span class="badge">Crispy</span></div>
+          <div class="card-body">
+            <div class="card-name">Fried Chicken</div>
+            <div class="card-qty">2 pieces</div>
+            <div class="card-footer">
+              <div class="card-price">₦3,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="extras">
+          <div class="card-img"> <img src="./Images/Kpomo (Cow Skin).jpg" alt="hot kpomo"><span class="badge">Popular</span></div>
+          <div class="card-body">
+            <div class="card-name">Kpomo (Cow Skin)</div>
+            <div class="card-qty">1 wrap (200g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦1,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Peppered Fish.jpg" alt="hot peppered fish"><span class="badge">Fresh</span> </div>
+          <div class="card-body">
+            <div class="card-name">Peppered Fish</div>
+            <div class="card-qty">1 piece (200g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,800</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Peppered Snail.jpg" alt="hot peppered snail"><span class="badge">Spicy</span></div>
+          <div class="card-body">
+            <div class="card-name">Peppered Snail</div>
+            <div class="card-qty">6 pieces</div>
+            <div class="card-footer">
+              <div class="card-price">₦5,000</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Ukwa (Breadfruit).jpg" alt="hot ukwa"><span class="badge">Eastern</span></div>
+          <div class="card-body">
+            <div class="card-name">Ukwa (Breadfruit)</div>
+            <div class="card-qty">1 bowl (300g)</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,000</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img"> <img src="./Images/Suya (Beef Stick).jpg" alt="hot suya"><span class="badge">Spicy</span></div>
+          <div class="card-body">
+            <div class="card-name">Suya (Beef Stick)</div>
+            <div class="card-qty">5 sticks</div>
+            <div class="card-footer">
+              <div class="card-price">₦2,500</div>
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+  <p class="section-sub">Everything we offer to keep you fed and happy.</p>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">🚚</div>
+      <h3>Fast Home Delivery</h3>
+      <p>We deliver your hot, freshly cooked meals straight to your door in Lagos
+      within 45–60 minutes of order placement.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🎉</div>
+      <h3>Event &amp; Party Catering</h3>
+      <p>Planning a celebration? We cater for parties, corporate events, weddings
+      and get-togethers. Minimum 24-hour notice.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">📦</div>
+      <h3>Bulk &amp; Office Orders</h3>
+      <p>Feed your entire office or team with our affordable bulk meal packages.
+      Discounts available for orders above ₦50,000.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🥡</div>
+      <h3>Meal Subscriptions</h3>
+      <p>Subscribe for daily or weekly meal plans and never worry about cooking
+      again. Customise your menu each week.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🌍</div>
+      <h3>Pan-Nigeria Shipping</h3>
+      <p>We ship packed, preserved traditional meals across Nigeria via our courier
+      partners. Delivery in 24–48 hours.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">💳</div>
+      <h3>Flexible Payments</h3>
+      <p>Pay via bank transfer, card, USSD, or on delivery. We accept all major
+      Nigerian payment channels.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CUSTOMER SERVICE ===== -->
+<section id="customer-service">
+  <h2 class="section-title">Customer Service</h2>
+  <p class="section-sub">We are here for you — always.</p>
+  <div class="faq-grid">
+
+    <div class="faq-item">
+      <h4>📦 How long does delivery take?</h4>
+      <p>Within Lagos, delivery takes 45–60 minutes. Delays due to traffic will be
+      communicated immediately via WhatsApp.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>🔄 Can I modify or cancel my order?</h4>
+      <p>You can cancel or change your order within 5 minutes of placement. After
+      cooking has started, we cannot accept changes.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>🌡️ Are meals kept hot on delivery?</h4>
+      <p>Yes! All meals are packed in insulated thermal bags. Your food arrives hot
+      and fresh, just like it left our kitchen.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>💰 What is your refund policy?</h4>
+      <p>If your order arrives damaged or incorrect, we will replace it or offer a
+      full refund within 24 hours of complaint.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>🧑‍🍳 Are the meals cooked daily?</h4>
+      <p>Absolutely. Every meal is cooked fresh on the day of order. We do not serve
+      reheated or day-old food.</p>
+    </div>
+
+    <div class="faq-item">
+      <h4>📱 How do I track my order?</h4>
+      <p>After ordering, you'll receive a WhatsApp confirmation with a live tracking
+      link so you can monitor your delivery in real time.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-sub">We'd love to hear from you — questions, feedback or bulk
+  orders, we're just a message away.</p>
+  <div class="contact-wrap">
+
+    <div class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>📍 <strong>Address:</strong> 64 Kenyatta Street, Enugu, Nigeria</p>
+      <p>📞 <strong>Phone:</strong> +234 901 234 5678</p>
+      <p>📱 <strong>WhatsApp:</strong> +234 901 234 5678</p>
+      <p>✉️ <strong>Email:</strong> hello@mamaputonline.com.ng</p>
+      <p>⏰ <strong>Hours:</strong> Monday – Saturday, 8:00am – 9:00pm<br>
+      Sunday: 10:00am – 6:00pm</p>
+    </div>
+
+    <div class="contact-form">
+      <input type="text" placeholder="Your Full Name" aria-label="Full Name">
+      <input type="email" placeholder="Email Address" aria-label="Email">
+      <input type="tel" placeholder="Phone Number" aria-label="Phone">
+      <select aria-label="Subject">
+        <option value="" disabled selected>Select Subject</option>
+        <option>Place a Bulk Order</option>
+        <option>Catering Enquiry</option>
+        <option>Delivery Issue</option>
+        <option>Feedback</option>
+        <option>Other</option>
+      </select>
+      <textarea placeholder="Your message…" aria-label="Message"></textarea>
+      <button type="button">Send Message 📨</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-copy">© 2026 MamaPutOnline · Ogbenge Nigerian Cuisine</div>
+  <div class="social-links">
+
+    <a href="#" title="Facebook" aria-label="Facebook">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+      </svg>
+    </a>
+
+    <a href="#" title="Twitter / X" aria-label="Twitter">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 22.43
+        1s-2 .87-3.29 1.1A4.52 4.52 0 0 0 11.5 6v1A10.66 10.66 0 0 1 3
+        4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0
+        0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+      </svg>
+    </a>
+
+    <a href="#" title="Instagram" aria-label="Instagram">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5"/>
+        <circle cx="12" cy="12" r="4"/>
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+      </svg>
+    </a>
+
+    <a href="#" title="TikTok" aria-label="TikTok">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89
+        2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1
+        2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34
+        0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0
+        6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0
+        1-1.01-.07z"/>
+      </svg>
+    </a>
+
+    <a href="#" title="WhatsApp" aria-label="WhatsApp">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099
+        -.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223
+        -.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761
+        -1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446
+        -.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075
+        -.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008
+        -.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04
+        2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077
+        4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571
+        -.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074
+        -.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0
+        1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86
+        0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122
+        1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437
+        9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05
+        0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588
+        5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683
+        1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0
+        0-3.48-8.413z"/>
+      </svg>
+    </a>
+
+    <a href="#" title="YouTube" aria-label="YouTube">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12
+        4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29
+        29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12
+        20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23
+        12a29 29 0 0 0-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+      </svg>
+    </a>
+
+  </div>
+</footer>
+
+</body>
+</html>
